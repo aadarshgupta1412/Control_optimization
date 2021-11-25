@@ -29,7 +29,8 @@ Total energy consumed is E=h∑nr=0pr.
 3. Make a relaxation in the equality constraint kr=v2r/2, by replacing it with constraint kr≥v2r/2. Make reasonable additional assumptions and see if the problem can be converted into convex optimization problem. Solve the problem for above values and note down your observations. Justify these observations.
 
 
-Problem 2 [Variational Form of Circuit Equations] (7 points)
+# Problem 2 [Variational Form of Circuit Equations] (7 points)
+
 Consider a circuit with m branches and n nodes. Let vector e∈Rn denote node voltages, v∈Rm denote branch voltages and i∈Rm denote branch currents.  Also, let the current-voltage characteristics of a two terminal device present in branch k be given by function vk=fk(ik). For example, if the device is resistor of resistance R then vk=ikR, if the device is voltage source of Vk volts with resistance r then vk=Vk+ikrk. According to KCL, the current vector i satisfies, Ai=0 where A∈Rn×m is node-edge incidence matrix. Similarly, KVL gives v=A⊤e. Now consider function
 Φ(i)=∑k=1m∫ik0fk(zk)dzk
 
